@@ -11,4 +11,3 @@ void signal_handler(int signum)
 	write(STDERR_FILENO, "$ ", 2);
 	fflush(stdout);
 }
-Footer
